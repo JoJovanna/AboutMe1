@@ -1,0 +1,99 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto',sans-serif;
+}
+
+.head {
+	min-height: 40px;
+	background-color: purple;
+	text-align: center;
+	padding: 10px;
+	font-weight: 500;
+}
+.menu {
+	display: flex;
+	flex-flow: row;
+	color: white;
+	text-decoration: none;
+	margin: 0 auto;
+	padding: 0;
+	justify-content: space-around;
+}
+
+a {
+	text-decoration: none;
+	color: yellow;
+}
+
+.max {
+	display: block;
+	margin-right: auto;
+
+}
+
+.menu li {
+	padding: 20px;
+}
+
+header {
+	padding-top: 30px;
+	text-align: center;
+	height: 320px;
+	width: 100%;
+	background-image: url(https://steamuserimages-a.akamaihd.net/ugc/1016068436114416823/68816CC2C389B799626BF0F77E5934032F23A553/);
+}
+header img {
+	height: 150px;
+	width: 150px;
+	border-radius: 50%;
+	border: 5px solid #ff00ff;
+}
+h1 {
+	display: table;
+	padding: 10px;
+	border-radius: 15px;
+	margin: 20px auto;
+	background-color: #ff00ff
+}
+.tag {
+	display: table;
+	padding: 5px;
+	border-radius: 10px;
+	margin: 20px auto;
+	background-color: #ff00ff
+
+}
+.cont1 {
+	display: flex;
+	flex-flow: row;
+	margin: 0 auto;
+	justify-content: space-around;
+}
+.cont2 {
+	max-width: 500px;
+	margin: 10px;
+	padding: 45px;
+
+	border-bottom: 4px solid purple;
+	border-radius: 6px;
+}
+footer {
+	text-align: center;
+	padding: 50px;
+}
+
+.nox {
+	display: flex;
+	flex-flow: row;
+}
+
+footer {
+	text-align: center;
+	padding: 40px;
+	color: purple;
+
+}
